@@ -7,3 +7,4 @@ def leap_year(y):
         return True
     else:
         return False
+print(leap_year(2000))
