@@ -1,18 +1,20 @@
 
 def fizzbuzz(n):
-    result = []
-    for x in range(1, n+1):
-        if x % 3 == 0 and x % 5 == 0:
-            result.append("fizz buzz")
-        elif x % 3 == 0:
-            result.append('fizz')
-        elif x % 5 == 0:
-            result.append('buzz')
+    for n in range(1, n+1): 
+
+        if n % 15 == 0: 
+            print("FizzBuzz")                                         
+            continue
+
+        elif n % 3 == 0:     
+            print("Fizz")                                         
+            continue
+    
+
+        elif n % 5 == 0:         
+            print("Buzz")                                     
+            continue
+
         else:
-            result.append(str(x))
-    return result
-
-def main():
-    print(', '.join(fizzbuzz(5)))
-
-main()
+            print (n)
+            continue
