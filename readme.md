@@ -1,0 +1,1 @@
+I attempted to write the fizzbuzz code one way but any test i attempted to perform on it failed. I decided to abandon that question until later. When i came back to it i was finally able to write a piece of code and test in order to make it pass. Thats why the third iteration of my FizzBuzz.py file is different than my first.
